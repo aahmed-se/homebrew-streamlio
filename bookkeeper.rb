@@ -27,7 +27,7 @@ class Bookkeeper < Formula
         <array>
           <string>#{opt_bin}/bookkeeper</string>
           <string>localbookie</string>
-          <string>10</string>
+          <string>4</string>
         </array>
         <key>RunAtLoad</key>
         <true/>
