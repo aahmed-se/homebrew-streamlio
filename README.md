@@ -8,7 +8,11 @@ brew tap aahmed-se/homebrew-heron
 
 ### TODO Heron version 14.9
 
-### TODO Pular version 1.18
+## Install Pulsar
+
+```
+brew install aahmed-se/heron/pulsar
+```
 
 ## Install Bookkeeper
 
