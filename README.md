@@ -12,10 +12,12 @@ brew tap aahmed-se/homebrew-heron
 
 ```
 brew install aahmed-se/heron/pulsar
+brew services start pulsar
 ```
 
 ## Install Bookkeeper
 
 ```
 brew install aahmed-se/heron/bookkeeper
+brew services start bookkeeper
 ```
