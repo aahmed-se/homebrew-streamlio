@@ -1,9 +1,9 @@
 class Pulsar < Formula
   desc "Apache Pulsar is an open-source distributed pub-sub messaging"
   homepage "https://pulsar.incubator.apache.org"
-  url "https://github.com/apache/incubator-pulsar/releases/download/v1.18/pulsar-1.18-bin.tar.gz"
-  sha256 "5eae48961654e95cb5730208fbb5123ec59be0fdd76a16772f63e82c88d98460"
-  version "1.18"
+  url "https://github.com/apache/incubator-pulsar/releases/download/v1.19.0-incubating/apache-pulsar-1.19.0-incubating-bin.tar.gz"
+  sha256 "d5048618f501b0c908867c672ac1237986a4c7195da848b737cf838c805ec0f4"
+  version "1.19"
 
   bottle :unneeded
 
