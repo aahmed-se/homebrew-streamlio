@@ -1,4 +1,4 @@
-class HeronUI < Formula
+class HeronUi < Formula
   desc "A realtime, distributed, fault-tolerant stream processing engine from Twitter"
   homepage "https://twitter.github.io/heron/"
   url "https://github.com/twitter/heron/releases/download/0.15.0/heron-tools-0.15.0-darwin.tar.gz"
