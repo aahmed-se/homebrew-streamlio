@@ -15,82 +15,69 @@ class HeronTools < Formula
     bin.write_exec_script Dir["#{libexec}/bin/heron-tracker"]
     bin.write_exec_script Dir["#{libexec}/bin/heron-ui"]
   end
-  
-  def plist; <<-EOS.undent
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-    <plist version="1.0">
-      <dict>
-        <key>KeepAlive</key>
-        <false/>
-        <key>Label</key>
-        <string>#{plist_name}-heron-tracker</string>
-        <key>ProgramArguments</key>
-        <array>
-          <string>#{opt_bin}/heron-tracker</string>
-        </array>
-        <key>RunAtLoad</key>
-        <true/>
-        <key>WorkingDirectory</key>
-        <string>#{var}</string>
-        <key>StandardErrorPath</key>
-        <string>#{var}/log/heron-tracker.log</string>
-        <key>StandardOutPath</key>
-        <string>#{var}/log/heron-tracker.log</string>
-      </dict>
-    </plist>
-    EOS
-  end
 
   def plist; <<-EOS.undent
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
     <plist version="1.0">
-      <dict>
-        <key>KeepAlive</key>
-        <false/>
-        <key>Label</key>
-        <string>#{plist_name}-heron-ui</string>
-        <key>ProgramArguments</key>
-        <array>
-          <string>#{opt_bin}/heron-ui</string>
-        </array>
-        <key>RunAtLoad</key>
-        <true/>
-        <key>WorkingDirectory</key>
-        <string>#{var}</string>
-        <key>StandardErrorPath</key>
-        <string>#{var}/log/heron-ui.log</string>
-        <key>StandardOutPath</key>
-        <string>#{var}/log/heron-ui.log</string>
-      </dict>
+      <array>
+        <dict>
+          <key>KeepAlive</key>
+          <false/>
+          <key>Label</key>
+          <string>#{plist_name}-heron-tracker</string>
+          <key>ProgramArguments</key>
+          <array>
+            <string>#{opt_bin}/heron-tracker</string>
+          </array>
+          <key>RunAtLoad</key>
+          <true/>
+          <key>WorkingDirectory</key>
+          <string>#{var}</string>
+          <key>StandardErrorPath</key>
+          <string>#{var}/log/heron-tracker.log</string>
+          <key>StandardOutPath</key>
+          <string>#{var}/log/heron-tracker.log</string>
+        </dict>
+        <dict>
+          <key>KeepAlive</key>
+          <false/>
+          <key>Label</key>
+          <string>#{plist_name}-heron-ui</string>
+          <key>ProgramArguments</key>
+          <array>
+            <string>#{opt_bin}/heron-ui</string>
+          </array>
+          <key>RunAtLoad</key>
+          <true/>
+          <key>WorkingDirectory</key>
+          <string>#{var}</string>
+          <key>StandardErrorPath</key>
+          <string>#{var}/log/heron-ui.log</string>
+          <key>StandardOutPath</key>
+          <string>#{var}/log/heron-ui.log</string>
+        </dict>
+        <dict>
+          <key>KeepAlive</key>
+          <false/>
+          <key>Label</key>
+          <string>#{plist_name}-heron-apiserver</string>
+          <key>ProgramArguments</key>
+          <array>
+            <string>#{opt_bin}/heron-apiserver</string>
+          </array>
+          <key>RunAtLoad</key>
+          <true/>
+          <key>WorkingDirectory</key>
+          <string>#{var}</string>
+          <key>StandardErrorPath</key>
+          <string>#{var}/log/heron-apiserver.log</string>
+          <key>StandardOutPath</key>
+          <string>#{var}/log/heron-apiserver.log</string>
+        </dict>
+      </array>
     </plist>
     EOS
   end
-  def plist; <<-EOS.undent
-    <?xml version="1.0" encoding="UTF-8"?>
-    <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-    <plist version="1.0">
-      <dict>
-        <key>KeepAlive</key>
-        <false/>
-        <key>Label</key>
-        <string>#{plist_name}-heron-apiserver</string>
-        <key>ProgramArguments</key>
-        <array>
-          <string>#{opt_bin}/heron-apiserver</string>
-        </array>
-        <key>RunAtLoad</key>
-        <true/>
-        <key>WorkingDirectory</key>
-        <string>#{var}</string>
-        <key>StandardErrorPath</key>
-        <string>#{var}/log/heron-apiserver.log</string>
-        <key>StandardOutPath</key>
-        <string>#{var}/log/heron-apiserver.log</string>
-      </dict>
-    </plist>
-    EOS
-  end
-  
+
 end
