@@ -17,7 +17,7 @@ class Pulsar < Formula
     bin.write_exec_script Dir["#{libexec}/bin/pulsar-daemon"]
     bin.write_exec_script Dir["#{libexec}/bin/pulsar-perf"]
   end
-  
+
   def plist; <<-EOS.undent
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
