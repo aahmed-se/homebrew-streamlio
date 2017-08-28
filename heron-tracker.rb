@@ -1,9 +1,9 @@
 class HeronTracker < Formula
   desc "A realtime, distributed, fault-tolerant stream processing engine from Twitter"
   homepage "https://twitter.github.io/heron/"
-  url "https://github.com/twitter/heron/releases/download/0.15.0/heron-tools-0.15.0-darwin.tar.gz"
-  sha256 "020f29517f5adffddd56f0462c024a6cb9ac662057d8236e26e238bc71f73c59"
-  version "0.15"
+  url "https://github.com/twitter/heron/releases/download/0.15.1/heron-tools-0.15.1-darwin.tar.gz"
+  sha256 "a6c0b83911343c19168db37ddeac7ceed7aefcb83a9fcd553a0f6194aac51e62"
+  version "0.15.1"
 
   bottle :unneeded
 
