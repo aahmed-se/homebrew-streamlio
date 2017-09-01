@@ -1,8 +1,8 @@
 class HeronApiServer < Formula
   desc "A realtime, distributed, fault-tolerant stream processing engine from Twitter"
   homepage "https://twitter.github.io/heron/"
-  url "https://github.com/twitter/heron/releases/download/0.15.1/heron-tools-0.15.1-darwin.tar.gz"
-  sha256 "a6c0b83911343c19168db37ddeac7ceed7aefcb83a9fcd553a0f6194aac51e62"
+  url "https://github.com/twitter/heron/releases/download/0.15.2/heron-tools-0.15.2-darwin.tar.gz"
+  sha256 "4c41a5df0fbbd77e2aa87206ec316c75b8b0b45d78fb1381462d8166e87db71c"
   version "0.15.1"
 
   bottle :unneeded
