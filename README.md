@@ -11,7 +11,7 @@ brew tap streamlio/homebrew-formulae
 ```
 brew install streamlio/homebrew-formulae/heron
 # To start Tracker
-brew services start heron-tracker
+brew services start heron
 ```
 
 ## Install Pulsar
