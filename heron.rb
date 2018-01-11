@@ -23,7 +23,8 @@ class Heron < Formula
   end
 
   def caveats; <<~EOS
-    For starting tracker use brew services start heron
+    For starting tracker use the command
+      brew services start heron
     To start ui first start tracker then use command
       launchctl load -w #{opt_prefix}/homebrew.mxcl.heron-ui.plist
     To stop ui or after version upgrade
