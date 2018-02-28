@@ -17,9 +17,9 @@ class Heron < Formula
     bin.write_exec_script Dir["#{libexec}/bin/heron-apiserver"]
     bin.write_exec_script Dir["#{libexec}/bin/heron-ui"]
 
+	system "tar", "xzf", "#{prefix}/libexec/dist/heron-core.tar.gz"
     (prefix/"homebrew.mxcl.heron-ui.plist").write heron_ui_plist
     (prefix/"homebrew.mxcl.heron-ui.plist").chmod 0644
-
   end
 
   def caveats; <<~EOS
