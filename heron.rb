@@ -2,7 +2,7 @@ class Heron < Formula
   desc "A realtime, distributed, fault-tolerant stream processing engine from Twitter"
   homepage "https://twitter.github.io/heron/"
   url "https://github.com/twitter/heron/releases/download/0.17.6/heron-0.17.6-darwin.tar.gz"
-  sha256 "537fd8b2050ee29757492b53cb86b8a5565c5ab88df6a5d8dcc3942baabbffbc"
+  sha256 "0101f3db36172d30093aa45622285e36a6614ad3e2c028b902f7da52f1d4217d"
   version "0.17.6"
 
   bottle :unneeded
