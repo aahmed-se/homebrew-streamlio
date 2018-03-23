@@ -1,9 +1,9 @@
 class Bookkeeper < Formula
   desc "BookKeeper is a replicated log service which can be used to build replicated state machines"
   homepage "http://bookkeeper.apache.org/"
-  url "http://apache.claz.org/bookkeeper/bookkeeper-4.6.0/bookkeeper-server-4.6.0-bin.tar.gz"
-  sha256 "36d29a2b061e428ad99789b8bf34c00dae50fc69531431d11d57d8f6028773dc"
-  version "4.6.0"
+  url "http://mirrors.sonic.net/apache/bookkeeper/bookkeeper-4.6.1/bookkeeper-server-4.6.1-bin.tar.gz"
+  sha256 "c4c1b80404e3becdbda5f053f5149821f487b071be7d2b99e7ddddf2eec7e859"
+  version "4.6.1"
 
   bottle :unneeded
 
@@ -14,7 +14,7 @@ class Bookkeeper < Formula
     bin.write_exec_script Dir["#{libexec}/bin/bookkeeper"]
   end
 
-  def plist; <<~EOS.undent
+  def plist; <<~EOS
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
     <plist version="1.0">
