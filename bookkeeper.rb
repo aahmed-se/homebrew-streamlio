@@ -2,7 +2,7 @@ class Bookkeeper < Formula
   desc "BookKeeper is a replicated log service which can be used to build replicated state machines"
   homepage "http://bookkeeper.apache.org/"
   url "https://www-us.apache.org/dist/bookkeeper/bookkeeper-4.8.0/bookkeeper-all-4.8.0-bin.tar.gz"
-  sha256 "d41606440f1377d03c1cb3d9a421929269522e00e5b5e545d0caa3d874c23dab"
+  sha256 "bda831d0e9ae9a4e8ba5113717f4fe8488f3a14b0c2d2bc6b810a97bf8883305"
   version "4.8.0"
 
   bottle :unneeded
