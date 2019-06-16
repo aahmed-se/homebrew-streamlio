@@ -1,9 +1,9 @@
 class Bookkeeper < Formula
   desc "BookKeeper is a replicated log service which can be used to build replicated state machines"
   homepage "http://bookkeeper.apache.org/"
-  url "http://apache.mirrors.lucidnetworks.net/bookkeeper/bookkeeper-4.9.0/bookkeeper-server-4.9.0-bin.tar.gz"
-  sha256 "cc8f7878b8427e85b1dda6b1cb305ad6fd08d9cc125bd23a2ebd15c53f38ba04"
-  version "4.9.0"
+  url "http://mirrors.estointernet.in/apache/bookkeeper/bookkeeper-4.9.1/bookkeeper-server-4.9.1-bin.tar.gz"
+  sha512 "a008cf49041a1d9a69bec62ea92daed5302babb7fb34fda06d48e0a77781eb4c4cb2aa6508435a4b9e70dce045ccd39b31829c3ac9723c9348e2a403d6e69a67"
+  version "4.9.1"
 
   bottle :unneeded
 
