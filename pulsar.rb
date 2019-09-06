@@ -1,9 +1,9 @@
 class Pulsar < Formula
   desc "Apache Pulsar is an open-source distributed pub-sub messaging"
   homepage "https://pulsar.apache.org"
-  url "https://www.apache.org/dyn/mirrors/mirrors.cgi?action=download&filename=pulsar/pulsar-2.4.0/apache-pulsar-2.4.0-bin.tar.gz"
-  sha256 "bb733d651382e36166f3b96f1cc4b13242a88ac325df305b693b0266795e73ec"
-  version "2.4.0"
+  url "https://www.apache.org/dyn/mirrors/mirrors.cgi?action=download&filename=pulsar/pulsar-2.4.1/apache-pulsar-2.4.1-bin.tar.gz"
+  sha256 "86e33c11c34f174f628f8129b7ff732799cac6669b2b11f8bf050a819bc44f4c"
+  version "2.4.1"
 
   bottle :unneeded
 
