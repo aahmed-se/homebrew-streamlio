@@ -3,13 +3,13 @@
 ## Register Tap
 
 ```
-brew tap streamlio/homebrew-formulae
+brew tap aahmed-se/homebrew-streamlio
 ```
 
 ## Install Heron
 
 ```
-brew install streamlio/homebrew-formulae/heron
+brew install aahmed-se/homebrew-streamlio/heron
 # To start Tracker
 brew services start heron
 ```
@@ -17,13 +17,13 @@ brew services start heron
 ## Install Pulsar
 
 ```
-brew install streamlio/homebrew-formulae/pulsar
+brew install aahmed-se/homebrew-streamlio/pulsar
 brew services start pulsar
 ```
 
 ## Install Bookkeeper
 
 ```
-brew install streamlio/homebrew-formulae/bookkeeper
+brew install aahmed-se/homebrew-streamlio/bookkeeper
 brew services start bookkeeper
 ```
